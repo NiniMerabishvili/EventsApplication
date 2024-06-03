@@ -1,0 +1,109 @@
+.titlecon {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 18px;
+  margin-top: 60px;
+}
+
+.lbox {
+  background-color: #1E1E1E;
+  width: 40%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rbox {
+  width: 60%;
+  border-radius: 30px;
+  overflow: hidden;
+  height: 210px; //simagleebi gamoviyenottt??
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  transition: transform 0.3s;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.title {
+  color: #FFFFFF;
+  font-size: 1.8rem;
+}
+.title_des {
+  color: #FFFFFF;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 300;
+}
+.width {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+//style events container
+
+.eventscon {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.eventbox {
+  width: 24%;
+  color: #202020;
+  position: relative;
+}
+.eventimg {
+  overflow: hidden;
+  height: 250px;
+  border-radius: 30px;
+  margin-bottom: 11px;
+}
+.eventbox img {
+  height: 100%;
+  border-radius: 30px;
+}
+.eventName {
+  font-size: 20px;
+  font-weight: 600;
+}
+.eventName {
+  margin-bottom: 1px;
+}
+.eventdes {
+  font-size: 12px;
+  font-style: italic;
+}
+.eventtime {
+  font-size: 12px;
+  color: #F4BB03;;
+}
+p {
+  margin: 0;
+}
+
+
+.calendar {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  position: absolute;
+  right: 0.8rem;
+  top: 0.8rem;
+  padding: 10px;
+  height: 45px;
+  z-index: 1;
+  width: 45px;
+}
+.calendar p {
+  text-align: center;
+  margin: 0px;
+}

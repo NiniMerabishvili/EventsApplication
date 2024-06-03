@@ -1,0 +1,61 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+header {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 0.8vw
+}
+
+.logo {
+  font-weight: 600;
+  color: #1E1E1E;
+}
+
+.hbtn {
+  border-radius: 30px;
+  width: 120px;
+  height: 36px;
+  background-color: #D9D9D9;
+  font-size: large;
+  font-family: Poppins;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.hbtn:hover {
+  transform: scale(1.05);
+}
+
+.active {
+  background-color: #F4BB03;
+  margin-right: 1vw
+}
+
+.user {
+  color: #1E1E1E;
+}
+
+hr {
+  background-color: #D9D9D9;
+  height: 3px;
+  border: none;
+  width: 100%;
+}
+
+body {
+  //background-image: url('./assets/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
